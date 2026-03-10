@@ -11,7 +11,7 @@ void inputData(float &berat, float &tinggi)
     cin >> tinggi;
 }
 
-// Fungsi menghitung BMI
+// Fungsi menghitung BM
 float hitungBMI(float berat, float tinggi)
 {
     return berat / (tinggi * tinggi);
@@ -46,5 +46,6 @@ int main()
     return 0;
 
 }
+
 
 
